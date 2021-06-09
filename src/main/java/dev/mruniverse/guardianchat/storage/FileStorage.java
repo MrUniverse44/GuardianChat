@@ -20,7 +20,7 @@ public class FileStorage {
         this.plugin = plugin;
         File dataFolder = plugin.getDataFolder();
         rxSettings = new File(dataFolder, "settings.yml");
-
+        settings = loadConfig("settings");
     }
 
     public File getFile(GuardianFiles fileToGet) {

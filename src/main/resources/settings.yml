@@ -58,7 +58,7 @@ block-until-movement:
 #  Anti Caps  - Configuration
 # + ------------------------- +
 anti-caps:
-  # Event Priorities: NORMAL-MONITOR-LOWEST-LOW-HIGHEST
+  # Event Priorities: MONITOR-LOWEST-LOW-NORMAL-HIGH-HIGHEST
   priority: NORMAL
   # The user will send the message but without caps.
   send-message: false
